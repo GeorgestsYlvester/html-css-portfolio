@@ -1,10 +1,45 @@
 #slider{
     overflow: hidden;
+    display: inline-block;
+    max-height: 97vh;
+    margin: 0;
+    padding: 0;
+  
 }
 
 #slider figure{
     position: relative;
     margin: 0;
-    width: 1200%;
+    width: 500%;
     left:0;
+    animation: 18s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+    
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    100%{
+        left: -400%;
+    }
+    
+
 }
