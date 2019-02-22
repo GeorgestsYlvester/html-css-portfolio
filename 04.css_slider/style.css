@@ -1,0 +1,10 @@
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    margin: 0;
+    width: 1200%;
+    left:0;
+}
